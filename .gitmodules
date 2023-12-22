@@ -1,5 +1,5 @@
 [submodule "raylib"]
-	path = raylib-5.0 
+	path = "raylib-5.0" 
 	url = https://github.com/raysan5/raylib
 
 [submodule "raygui"]

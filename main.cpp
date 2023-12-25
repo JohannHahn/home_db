@@ -11,7 +11,7 @@ int main() {
 	    std::cout << "hi\n";
 	}
 	Vector2 mouse_cell;
-	int g = GuiGrid({100, 100, 300, 300}, "text", 5.f, 10, &mouse_cell);
+	int g = GuiGrid({100, 100, 300, 300}, "text", 20.f, 1, &mouse_cell);
 	if(g) std::cout << g << "\n";
 	EndDrawing();
     }
